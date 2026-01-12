@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nazia Shar | AI & Data Scientist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e3a8a);
+            padding: 70px 20px;
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        nav {
+            background: #020617;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #93c5fd;
+            margin: 0 14px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            max-width: 1150px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: #60a5fa;
+            border-bottom: 2px solid #1e40af;
+            display: inline-block;
+        }
+
+        .card {
+            background: #020617;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            animation: slideUp 1s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            transition: 0.4s;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background: #020617;
+            padding: 18px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .skill i {
+            font-size: 30px;
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .button:hover {
+            background: #1e40af;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nazia Shar</h1>
+        <p>AI Engineer | Data Scientist | Machine Learning Specialist</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am a Computer Systems Engineering graduate with a strong focus on
+                Artificial Intelligence, Machine Learning, and Data Science.
+                I have hands-on experience in deep learning, predictive modeling,
+                time series forecasting, and real-world data analysis.
+                My goal is to build intelligent, data-driven systems that create real impact.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill"><i class="fa-brands fa-python"></i>Python</div>
+            <div class="skill"><i class="fa-solid fa-database"></i>SQL</div>
+            <div class="skill"><i class="fa-solid fa-brain"></i>Machine Learning</div>
+            <div class="skill"><i class="fa-solid fa-network-wired"></i>Deep Learning</div>
+            <div class="skill"><i class="fa-solid fa-chart-line"></i>Data Analysis</div>
+            <div class="skill"><i class="fa-solid fa-chart-pie"></i>Power BI</div>
+            <div class="skill"><i class="fa-solid fa-robot"></i>AI Systems</div>
+            <div class="skill"><i class="fa-solid fa-code"></i>TensorFlow / Keras</div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <h3>Machine Learning Intern – Elevvo Pathways</h3>
+            <p>
+                Developed ML pipelines for regression, classification, clustering,
+                forecasting, recommendation systems, and CNN-based applications.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Machine Learning Intern – NextGen Learners</h3>
+            <p>
+                Built end-to-end ML workflows including data preprocessing,
+                feature engineering, model optimization, and evaluation.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Signature Forgery Detection (Thesis)</h3>
+            <p>
+                <b>Problem:</b> Detect forged signatures for secure authentication.<br>
+                <b>Tech:</b> VGG16, DenseNet121, Transfer Learning.<br>
+                <b>Dataset:</b> CEDAR + custom dataset.<br>
+                <b>Result:</b> Achieved 98.5% accuracy, reduced authentication errors.
+            </p>
+            <a class="button" href="https://github.com/NaziaShar" target="_blank">GitHub</a>
+        </div>
+
+        <div class="card">
+            <h3>Traffic Sign Recognition</h3>
+            <p>
+                <b>Problem:</b> Automated traffic sign classification for road safety.<br>
+                <b>Tech:</b> CNN, Image Processing.<br>
+                <b>Dataset:</b> GTSRB.<br>
+                <b>Result:</b> 96% classification accuracy.
+            </p>
+            <a class="button"
+                href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks/tree/main/Traffic%20Sign%20Recognition"
+                target="_blank">GitHub</a>
+        </div>
+
+        <div class="card">
+            <h3>Music Genre Classification</h3>
+            <p>
+                <b>Problem:</b> Automatic music genre detection.<br>
+                <b>Tech:</b> CNN, Librosa feature extraction.<br>
+                <b>Dataset:</b> GTZAN.<br>
+                <b>Result:</b> 88% accuracy.
+            </p>
+            <a class="button"
+                href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks/tree/main/Music%20Genre%20Classification"
+                target="_blank">GitHub</a>
+        </div>
+
+        <div class="card">
+            <h3>Sales Forecasting</h3>
+            <p>
+                <b>Problem:</b> Predict future sales for inventory planning.<br>
+                <b>Tech:</b> ARIMA, LSTM.<br>
+                <b>Result:</b> Improved forecast accuracy by 15%.
+            </p>
+            <a class="button"
+                href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks/tree/main/Sales%20Forecasting"
+                target="_blank">GitHub</a>
+        </div>
+        <section id="certifications">
+            <h2>Certifications</h2>
+
+            <div class="card">
+                <ul style="list-style:none;padding-left:0;">
+
+                    <li>
+                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
+                        &nbsp;
+                        <a href="https://www.coursera.org/accomplishments" target="_blank">
+                            Google Data Analytics Specialization
+                        </a>
+                    </li><br>
+
+                    <li>
+                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
+                        &nbsp;
+                        <a href="https://www.coursera.org/accomplishments" target="_blank">
+                            Google AI Essentials
+                        </a>
+                    </li><br>
+
+                    <li>
+                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
+                        &nbsp;
+                        <a href="https://www.coursera.org/accomplishments" target="_blank">
+                            Supervised Machine Learning: Regression & Classification
+                        </a>
+                    </li><br>
+
+                    <li>
+                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
+                        &nbsp;
+                        <a href="https://www.coursera.org/accomplishments" target="_blank">
+                            Introduction to Data Science Specialization
+                        </a>
+                    </li><br>
+
+                    <li>
+                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
+                        &nbsp;
+                        <a href="https://quiz.ideagist.com/ideagist-certificate/?cert_hash=d8757b7456525e8a"
+                            target="_blank">
+                            HEC Generative AI Training Program
+                        </a><br>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p>Email: naziashar394@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/NaziaShar" target="_blank">github.com/NaziaShar</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/nazia-shar-3611a6239/" target="_blank">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Nazia Shar | AI & Data Science Portfolio
+    </footer>
+
+</body>
+
+</html>
