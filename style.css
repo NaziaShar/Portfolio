@@ -155,20 +155,30 @@ h2 {
     filter: invert(1) brightness(1.4);
 }
 
-/* ===== CERTIFICATIONS ===== */
 .cert-list {
     list-style: none;
+    /* remove bullets */
     padding-left: 0;
+    margin-top: 30px;
+    /* space from heading */
+}
+
+.cert-list li {
+    margin-bottom: 20px;
+    /* space between each certification item */
 }
 
 .cert-list a,
 .cert-list a:visited {
-    color: #4dd0e1;
+    color: #60a5fa;
+    /* keep links blue even when visited */
     text-decoration: none;
+    font-weight: 500;
 }
 
 .cert-list a:hover {
-    color: #80cbc4;
+    color: #38bdf8;
+    /* lighter blue on hover */
     text-decoration: underline;
 }
 
