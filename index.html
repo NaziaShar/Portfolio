@@ -8,138 +8,10 @@
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: "Segoe UI", sans-serif;
-            background: #0f172a;
-            color: #e5e7eb;
-        }
-
-        header {
-            background: linear-gradient(135deg, #2563eb, #1e3a8a);
-            padding: 70px 20px;
-            text-align: center;
-            animation: fadeIn 1.5s ease;
-        }
-
-        header h1 {
-            font-size: 42px;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-
-        nav {
-            background: #020617;
-            padding: 12px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #93c5fd;
-            margin: 0 14px;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        nav a:hover {
-            color: #fff;
-        }
-
-        section {
-            max-width: 1150px;
-            margin: auto;
-            padding: 60px 20px;
-        }
-
-        h2 {
-            color: #60a5fa;
-            border-bottom: 2px solid #1e40af;
-            display: inline-block;
-        }
-
-        .card {
-            background: #020617;
-            padding: 25px;
-            margin-top: 25px;
-            border-radius: 14px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-            animation: slideUp 1s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-6px);
-            transition: 0.4s;
-        }
-
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 20px;
-        }
-
-        .skill {
-            background: #020617;
-            padding: 18px;
-            border-radius: 12px;
-            text-align: center;
-            font-size: 16px;
-        }
-
-        .skill i {
-            font-size: 30px;
-            color: #60a5fa;
-            margin-bottom: 10px;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 12px;
-            padding: 10px 18px;
-            background: #2563eb;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-
-        .button:hover {
-            background: #1e40af;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #020617;
-            color: #94a3b8;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
+    <!-- ✅ External CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -154,169 +26,312 @@
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
     </nav>
 
+    <!-- ===== ABOUT ===== -->
     <section id="about">
         <h2>About Me</h2>
         <div class="card">
             <p>
-                I am a Computer Systems Engineering graduate with a strong focus on
-                Artificial Intelligence, Machine Learning, and Data Science.
-                I have hands-on experience in deep learning, predictive modeling,
-                time series forecasting, and real-world data analysis.
-                My goal is to build intelligent, data-driven systems that create real impact.
+                I am a Computer Systems Engineering graduate and a passionate AI & Data Science professional
+                with hands-on experience in developing machine learning and deep learning solutions for real-world
+                problems.
+                I specialize in building intelligent systems using Python, TensorFlow, Keras, and PyTorch, and I have a
+                strong foundation in data analysis, predictive modeling, and computer vision. My work combines technical
+                expertise with a results-driven approach, aiming to transform data into actionable insights and
+                impactful AI solutions.
             </p>
         </div>
     </section>
-
+    <!-- ===== SKILLS & TOOLS ===== -->
     <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill"><i class="fa-brands fa-python"></i>Python</div>
-            <div class="skill"><i class="fa-solid fa-database"></i>SQL</div>
-            <div class="skill"><i class="fa-solid fa-brain"></i>Machine Learning</div>
-            <div class="skill"><i class="fa-solid fa-network-wired"></i>Deep Learning</div>
-            <div class="skill"><i class="fa-solid fa-chart-line"></i>Data Analysis</div>
-            <div class="skill"><i class="fa-solid fa-chart-pie"></i>Power BI</div>
-            <div class="skill"><i class="fa-solid fa-robot"></i>AI Systems</div>
-            <div class="skill"><i class="fa-solid fa-code"></i>TensorFlow / Keras</div>
+        <h2>Skills & Software Tools</h2>
+
+        <div class="skills-tools-container">
+
+            <!-- Python -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    class="skill-icon">
+                <span>Python</span>
+            </div>
+
+            <!-- TensorFlow -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                    class="skill-icon">
+                <span>TensorFlow</span>
+            </div>
+
+            <!-- Keras -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg"
+                    class="skill-icon">
+                <span>Keras</span>
+            </div>
+
+            <!-- PyTorch -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                    class="skill-icon">
+                <span>PyTorch</span>
+            </div>
+
+            <!-- NumPy -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                    class="skill-icon">
+                <span>NumPy</span>
+            </div>
+
+            <!-- Pandas -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                    class="skill-icon">
+                <span>Pandas</span>
+            </div>
+
+            <!-- Scikit-learn -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                    class="skill-icon">
+                <span>Scikit-learn</span>
+            </div>
+
+            <!-- OpenCV -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+                    class="skill-icon">
+                <span>OpenCV</span>
+            </div>
+
+            <!-- Jupyter -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+                    class="skill-icon">
+                <span>Jupyter</span>
+            </div>
+
+            <!-- MATLAB -->
+            <div class="skill-tool">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" class="skill-icon">
+                <span>MATLAB</span>
+            </div>
+
+            <!-- Power BI -->
+            <div class="skill-tool">
+                <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=ffffff" class="skill-icon">
+                <span>Power BI</span>
+            </div>
+
+            <!-- Tableau -->
+            <div class="skill-tool">
+                <img src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=ffffff" class="skill-icon">
+                <span>Tableau</span>
+            </div>
+
+            <!-- VS Code -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                    class="skill-icon">
+                <span>VS Code</span>
+            </div>
+
+            <!-- Git -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="skill-icon">
+                <span>Git</span>
+            </div>
+
+            <!-- GitHub -->
+            <div class="skill-tool">
+                <img src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000"
+                    class="skill-icon invert-icon">
+                <span>GitHub</span>
+            </div>
+
+            <!-- SQL -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    class="skill-icon">
+                <span>SQL</span>
+            </div>
+
+            <!-- MS Excel -->
+            <div class="skill-tool">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+                    class="skill-icon">
+                <span>MS Excel</span>
+            </div>
+
         </div>
     </section>
-
     <section id="experience">
         <h2>Experience</h2>
 
         <div class="card">
             <h3>Machine Learning Intern – Elevvo Pathways</h3>
             <p>
-                Developed ML pipelines for regression, classification, clustering,
-                forecasting, recommendation systems, and CNN-based applications.
+                Worked on data preprocessing, feature engineering, ML model training,
+                evaluation, and optimization using real-world datasets.
             </p>
         </div>
 
         <div class="card">
             <h3>Machine Learning Intern – NextGen Learners</h3>
             <p>
-                Built end-to-end ML workflows including data preprocessing,
-                feature engineering, model optimization, and evaluation.
+                Built supervised and unsupervised learning models and optimized
+                hyperparameters to improve performance.
             </p>
         </div>
     </section>
 
+    <!-- ===== PROJECTS ===== -->
     <section id="projects">
         <h2>Projects</h2>
 
-        <div class="card">
-            <h3>Signature Forgery Detection (Thesis)</h3>
-            <p>
-                <b>Problem:</b> Detect forged signatures for secure authentication.<br>
-                <b>Tech:</b> VGG16, DenseNet121, Transfer Learning.<br>
-                <b>Dataset:</b> CEDAR + custom dataset.<br>
-                <b>Result:</b> Achieved 98.5% accuracy, reduced authentication errors.
-            </p>
-            <a class="button" href="https://github.com/NaziaShar" target="_blank">GitHub</a>
-        </div>
-
-        <div class="card">
-            <h3>Traffic Sign Recognition</h3>
-            <p>
-                <b>Problem:</b> Automated traffic sign classification for road safety.<br>
-                <b>Tech:</b> CNN, Image Processing.<br>
-                <b>Dataset:</b> GTSRB.<br>
-                <b>Result:</b> 96% classification accuracy.
-            </p>
-            <a class="button"
-                href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks/tree/main/Traffic%20Sign%20Recognition"
-                target="_blank">GitHub</a>
-        </div>
-
-        <div class="card">
-            <h3>Music Genre Classification</h3>
-            <p>
-                <b>Problem:</b> Automatic music genre detection.<br>
-                <b>Tech:</b> CNN, Librosa feature extraction.<br>
-                <b>Dataset:</b> GTZAN.<br>
-                <b>Result:</b> 88% accuracy.
-            </p>
-            <a class="button"
-                href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks/tree/main/Music%20Genre%20Classification"
-                target="_blank">GitHub</a>
-        </div>
-
-        <div class="card">
-            <h3>Sales Forecasting</h3>
-            <p>
-                <b>Problem:</b> Predict future sales for inventory planning.<br>
-                <b>Tech:</b> ARIMA, LSTM.<br>
-                <b>Result:</b> Improved forecast accuracy by 15%.
-            </p>
-            <a class="button"
-                href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks/tree/main/Sales%20Forecasting"
-                target="_blank">GitHub</a>
-        </div>
-        <section id="certifications">
-            <h2>Certifications</h2>
-
-            <div class="card">
-                <ul style="list-style:none;padding-left:0;">
-
-                    <li>
-                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
-                        &nbsp;
-                        <a href="https://www.coursera.org/accomplishments" target="_blank">
-                            Google Data Analytics Specialization
-                        </a>
-                    </li><br>
-
-                    <li>
-                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
-                        &nbsp;
-                        <a href="https://www.coursera.org/accomplishments" target="_blank">
-                            Google AI Essentials
-                        </a>
-                    </li><br>
-
-                    <li>
-                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
-                        &nbsp;
-                        <a href="https://www.coursera.org/accomplishments" target="_blank">
-                            Supervised Machine Learning: Regression & Classification
-                        </a>
-                    </li><br>
-
-                    <li>
-                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
-                        &nbsp;
-                        <a href="https://www.coursera.org/accomplishments" target="_blank">
-                            Introduction to Data Science Specialization
-                        </a>
-                    </li><br>
-
-                    <li>
-                        <i class="fa-solid fa-certificate" style="color:#60a5fa;"></i>
-                        &nbsp;
-                        <a href="https://quiz.ideagist.com/ideagist-certificate/?cert_hash=d8757b7456525e8a"
-                            target="_blank">
-                            HEC Generative AI Training Program
-                        </a><br>
-                    </li>
-
-                </ul>
+        <!-- Project 1 -->
+        <div class="project-row">
+            <div class="project-image">
+                <img src="https://img.icons8.com/?size=100&id=yqKJgoMM94Nc&format=png&color=FFFFFF"
+                    alt="Signature Forgery Detection">
             </div>
-        </section>
-
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="card">
-            <p>Email: naziashar394@gmail.com</p>
-            <p>GitHub: <a href="https://github.com/NaziaShar" target="_blank">github.com/NaziaShar</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/nazia-shar-3611a6239/" target="_blank">LinkedIn</a></p>
+            <div class="project-description">
+                <h3>Signature Forgery Detection (Final Year Thesis)</h3>
+                <p>
+                    <b>What happens in this project:</b><br>
+                    • Signature images are preprocessed (grayscale conversion, noise removal, resizing).<br>
+                    • Deep learning models (VGG16 and DenseNet121) extract unique features.<br>
+                    • System compares genuine vs forged signatures using learned patterns.<br>
+                    • Final prediction classifies signature as <i>genuine</i> or <i>forged</i>.<br><br>
+                    <b>Impact:</b> Achieved 98.5% accuracy on CEDAR dataset.
+                </p>
+                <a class="button" href="https://github.com/NaziaShar" target="_blank">GitHub</a>
+            </div>
         </div>
+
+        <!-- Project 2 -->
+        <div class="project-row reverse">
+            <div class="project-image">
+                <img src="https://img.icons8.com/?size=100&id=S8hVyNTRLwqc&format=png&color=000000"
+                    alt="Traffic Sign Recognition">
+            </div>
+            <div class="project-description">
+                <h3>Traffic Sign Recognition</h3>
+                <p>
+                    • Traffic sign images are cleaned, normalized, and augmented.<br>
+                    • CNN learns visual patterns like shape, color, symbols.<br>
+                    • Trained model predicts traffic sign classes.<br>
+                    • Accuracy: 96% on GTSRB dataset.
+                </p>
+                <a class="button" href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks"
+                    target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-row">
+            <div class="project-image">
+                <img src="https://img.icons8.com/?size=100&id=mpeojql23sni&format=png&color=EBEBEB"
+                    alt="Music Genre Classification">
+            </div>
+            <div class="project-description">
+                <h3>Music Genre Classification</h3>
+                <p>
+                    • Audio files converted to features using Librosa.<br>
+                    • CNN predicts music genre from audio.<br>
+                    • Use case: music recommendation systems.
+                </p>
+                <a class="button" href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks"
+                    target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-row reverse">
+            <div class="project-image">
+                <img src="https://img.icons8.com/fluency/150/000000/line-chart.png" alt="Sales Forecasting">
+            </div>
+            <div class="project-description">
+                <h3>Sales Forecasting</h3>
+                <p>
+                    • Historical sales data transformed into time-series.<br>
+                    • ARIMA and LSTM used for prediction.<br>
+                    • Outcome: 15% improvement over baseline forecasts.
+                </p>
+                <a class="button" href="https://github.com/NaziaShar/Elevvo-Internship-Tasks-Machine-Learning-Tasks"
+                    target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-row">
+            <div class="project-image">
+                <img src="https://img.icons8.com/fluency/150/000000/chatbot.png" alt="Career Guidance Chatbot">
+            </div>
+            <div class="project-description">
+                <h3>Career Guidance Chatbot</h3>
+                <p>
+                    <b>What happens in this project:</b><br>
+                    • Developed an intelligent chatbot to assist students and professionals in planning their
+                    careers.<br>
+                    • Implemented NLP using Python and NLTK to understand user queries.<br>
+                    • Integrated ML models to recommend career paths based on skills, interests, and education.<br>
+                    • The chatbot provides guidance on suitable job roles, required skills, and suggested learning
+                    resources.<br><br>
+                    <b>Technologies:</b> Python, NLTK, Scikit-learn, Streamlit.<br>
+                    <b>Impact:</b> Helps users make informed career decisions.
+                </p>
+                <a class="button" href="https://github.com/NaziaShar/Career-Guidance-Chatbot" target="_blank">GitHub</a>
+            </div>
+        </div>
+
     </section>
 
+
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul style="list-style:none;padding-left:0;">
+            <li><a href="https://coursera.org/share/745224999b1efa2bfa1f2395d81faf89" target="_blank">Google Data
+                    Analytics Specialization</a></li>
+            <li><a href="https://coursera.org/share/c81be68ef958c912faeabd22f1a4025c" target="_blank">Google AI
+                    Essentials</a></li>
+            <li><a href="https://coursera.org/share/add26795e69a241dc7c2ed510a488b45" target="_blank">Supervised Machine
+                    Learning</a></li>
+            <li><a href="https://coursera.org/share/154598867802d1dfb48d18651698310b" target="_blank">Introduction to
+                    Data Science</a></li>
+            <li><a href="https://quiz.ideagist.com/ideagist-certificate/?cert_hash=d8757b7456525e8a" target="_blank">HEC
+                    Generative AI Training</a></li>
+        </ul>
+    </section>
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            <img src="https://img.icons8.com/?size=100&id=bqI4gOgp4z1f&format=png&color=000000"
+                class="contact-inline-icon" alt="Email">
+            Email: <a href="mailto:naziashar394@gmail.com">naziashar394@gmail.com</a>
+        </p>
+
+        <p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                class="contact-inline-icon invert-icon" alt="GitHub">
+            GitHub: <a href="https://github.com/NaziaShar" target="_blank"
+                rel="noopener noreferrer">github.com/NaziaShar</a>
+        </p>
+
+        <p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                class="contact-inline-icon" alt="LinkedIn">
+            LinkedIn: <a href="https://www.linkedin.com/in/nazia-shar-3611a6239/" target="_blank"
+                rel="noopener noreferrer">linkedin.com/in/nazia-shar-3611a6239</a>
+        </p>
+    </section>
     <footer>
         © 2026 Nazia Shar | AI & Data Science Portfolio
     </footer>
