@@ -570,19 +570,18 @@ footer {
 
 @media (max-width: 768px) {
 
-    /* ---- PROJECT ROW: DO NOT STACK ---- */
     .project-row,
     .project-row.reverse {
-        flex-wrap: nowrap;
-        /* keep in one row */
-        flex-direction: row;
-        /* same as desktop */
-        align-items: flex-start;
+        flex-wrap: nowrap !important;
+        /* 🔥 KEY FIX */
+        flex-direction: row !important;
+        /* keep desktop layout */
+        align-items: center;
     }
 
     .project-image {
         flex: 0 0 90px;
-        /* fixed small image column */
+        /* fixed column for logo */
         text-align: center;
     }
 
@@ -593,7 +592,7 @@ footer {
 
     .project-description {
         flex: 1;
-        padding: 10px;
+        padding: 10px 12px;
     }
 
     .project-description h3 {
@@ -603,27 +602,6 @@ footer {
     .project-description p {
         font-size: 13.5px;
         line-height: 1.5;
-    }
-
-    .project-description .button {
-        padding: 6px 12px;
-        font-size: 13px;
-    }
-}
-
-/* ==================================
-   ABOUT SECTION: REDUCE BIG BOX FEEL
-================================== */
-
-@media (max-width: 768px) {
-
-    #about .card {
-        padding: 18px;
-    }
-
-    #about p {
-        font-size: 14px;
-        line-height: 1.55;
     }
 }
 
@@ -645,10 +623,6 @@ footer {
 
     .project-description p {
         font-size: 13px;
-    }
-
-    #about p {
-        font-size: 13.5px;
     }
 }
 
